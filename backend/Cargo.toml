@@ -1,0 +1,15 @@
+[package]
+name = "course-registration-api"
+version = "0.1.0"
+edition = "2024"
+description = "High-concurrency course registration backend"
+publish = false
+
+[dependencies]
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"
+pedantic = "warn"
